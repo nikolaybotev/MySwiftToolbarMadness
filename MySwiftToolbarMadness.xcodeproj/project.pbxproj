@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6081EE61CA4D51D0066561F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6081EE51CA4D51D0066561F /* AppDelegate.swift */; };
+		F6081EE81CA4D51D0066561F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6081EE71CA4D51D0066561F /* ViewController.swift */; };
+		F6081EEA1CA4D51D0066561F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6081EE91CA4D51D0066561F /* Assets.xcassets */; };
+		F6081EED1CA4D51D0066561F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6081EEB1CA4D51D0066561F /* Main.storyboard */; };
+		F6081EF81CA4D51D0066561F /* MySwiftToolbarMadnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6081EF71CA4D51D0066561F /* MySwiftToolbarMadnessTests.swift */; };
+		F6081F031CA4D51E0066561F /* MySwiftToolbarMadnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6081F021CA4D51E0066561F /* MySwiftToolbarMadnessUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6081EF41CA4D51D0066561F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6081EDA1CA4D51D0066561F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6081EE11CA4D51D0066561F;
+			remoteInfo = MySwiftToolbarMadness;
+		};
+		F6081EFF1CA4D51E0066561F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6081EDA1CA4D51D0066561F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6081EE11CA4D51D0066561F;
+			remoteInfo = MySwiftToolbarMadness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6081EE21CA4D51D0066561F /* MySwiftToolbarMadness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwiftToolbarMadness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6081EE51CA4D51D0066561F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6081EE71CA4D51D0066561F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6081EE91CA4D51D0066561F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6081EEC1CA4D51D0066561F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6081EEE1CA4D51D0066561F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6081EF31CA4D51D0066561F /* MySwiftToolbarMadnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySwiftToolbarMadnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6081EF71CA4D51D0066561F /* MySwiftToolbarMadnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftToolbarMadnessTests.swift; sourceTree = "<group>"; };
+		F6081EF91CA4D51D0066561F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6081EFE1CA4D51E0066561F /* MySwiftToolbarMadnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySwiftToolbarMadnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6081F021CA4D51E0066561F /* MySwiftToolbarMadnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftToolbarMadnessUITests.swift; sourceTree = "<group>"; };
+		F6081F041CA4D51E0066561F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6081EDF1CA4D51D0066561F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6081EF01CA4D51D0066561F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6081EFB1CA4D51E0066561F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6081ED91CA4D51D0066561F = {
+			isa = PBXGroup;
+			children = (
+				F6081EE41CA4D51D0066561F /* MySwiftToolbarMadness */,
+				F6081EF61CA4D51D0066561F /* MySwiftToolbarMadnessTests */,
+				F6081F011CA4D51E0066561F /* MySwiftToolbarMadnessUITests */,
+				F6081EE31CA4D51D0066561F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6081EE31CA4D51D0066561F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6081EE21CA4D51D0066561F /* MySwiftToolbarMadness.app */,
+				F6081EF31CA4D51D0066561F /* MySwiftToolbarMadnessTests.xctest */,
+				F6081EFE1CA4D51E0066561F /* MySwiftToolbarMadnessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6081EE41CA4D51D0066561F /* MySwiftToolbarMadness */ = {
+			isa = PBXGroup;
+			children = (
+				F6081EE51CA4D51D0066561F /* AppDelegate.swift */,
+				F6081EE71CA4D51D0066561F /* ViewController.swift */,
+				F6081EE91CA4D51D0066561F /* Assets.xcassets */,
+				F6081EEB1CA4D51D0066561F /* Main.storyboard */,
+				F6081EEE1CA4D51D0066561F /* Info.plist */,
+			);
+			path = MySwiftToolbarMadness;
+			sourceTree = "<group>";
+		};
+		F6081EF61CA4D51D0066561F /* MySwiftToolbarMadnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6081EF71CA4D51D0066561F /* MySwiftToolbarMadnessTests.swift */,
+				F6081EF91CA4D51D0066561F /* Info.plist */,
+			);
+			path = MySwiftToolbarMadnessTests;
+			sourceTree = "<group>";
+		};
+		F6081F011CA4D51E0066561F /* MySwiftToolbarMadnessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6081F021CA4D51E0066561F /* MySwiftToolbarMadnessUITests.swift */,
+				F6081F041CA4D51E0066561F /* Info.plist */,
+			);
+			path = MySwiftToolbarMadnessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6081EE11CA4D51D0066561F /* MySwiftToolbarMadness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6081F071CA4D51E0066561F /* Build configuration list for PBXNativeTarget "MySwiftToolbarMadness" */;
+			buildPhases = (
+				F6081EDE1CA4D51D0066561F /* Sources */,
+				F6081EDF1CA4D51D0066561F /* Frameworks */,
+				F6081EE01CA4D51D0066561F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySwiftToolbarMadness;
+			productName = MySwiftToolbarMadness;
+			productReference = F6081EE21CA4D51D0066561F /* MySwiftToolbarMadness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6081EF21CA4D51D0066561F /* MySwiftToolbarMadnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6081F0A1CA4D51E0066561F /* Build configuration list for PBXNativeTarget "MySwiftToolbarMadnessTests" */;
+			buildPhases = (
+				F6081EEF1CA4D51D0066561F /* Sources */,
+				F6081EF01CA4D51D0066561F /* Frameworks */,
+				F6081EF11CA4D51D0066561F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6081EF51CA4D51D0066561F /* PBXTargetDependency */,
+			);
+			name = MySwiftToolbarMadnessTests;
+			productName = MySwiftToolbarMadnessTests;
+			productReference = F6081EF31CA4D51D0066561F /* MySwiftToolbarMadnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6081EFD1CA4D51E0066561F /* MySwiftToolbarMadnessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6081F0D1CA4D51E0066561F /* Build configuration list for PBXNativeTarget "MySwiftToolbarMadnessUITests" */;
+			buildPhases = (
+				F6081EFA1CA4D51E0066561F /* Sources */,
+				F6081EFB1CA4D51E0066561F /* Frameworks */,
+				F6081EFC1CA4D51E0066561F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6081F001CA4D51E0066561F /* PBXTargetDependency */,
+			);
+			name = MySwiftToolbarMadnessUITests;
+			productName = MySwiftToolbarMadnessUITests;
+			productReference = F6081EFE1CA4D51E0066561F /* MySwiftToolbarMadnessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6081EDA1CA4D51D0066561F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nikolay Botev";
+				TargetAttributes = {
+					F6081EE11CA4D51D0066561F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F6081EF21CA4D51D0066561F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F6081EE11CA4D51D0066561F;
+					};
+					F6081EFD1CA4D51E0066561F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F6081EE11CA4D51D0066561F;
+					};
+				};
+			};
+			buildConfigurationList = F6081EDD1CA4D51D0066561F /* Build configuration list for PBXProject "MySwiftToolbarMadness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6081ED91CA4D51D0066561F;
+			productRefGroup = F6081EE31CA4D51D0066561F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6081EE11CA4D51D0066561F /* MySwiftToolbarMadness */,
+				F6081EF21CA4D51D0066561F /* MySwiftToolbarMadnessTests */,
+				F6081EFD1CA4D51E0066561F /* MySwiftToolbarMadnessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6081EE01CA4D51D0066561F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6081EEA1CA4D51D0066561F /* Assets.xcassets in Resources */,
+				F6081EED1CA4D51D0066561F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6081EF11CA4D51D0066561F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6081EFC1CA4D51E0066561F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6081EDE1CA4D51D0066561F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6081EE81CA4D51D0066561F /* ViewController.swift in Sources */,
+				F6081EE61CA4D51D0066561F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6081EEF1CA4D51D0066561F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6081EF81CA4D51D0066561F /* MySwiftToolbarMadnessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6081EFA1CA4D51E0066561F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6081F031CA4D51E0066561F /* MySwiftToolbarMadnessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6081EF51CA4D51D0066561F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6081EE11CA4D51D0066561F /* MySwiftToolbarMadness */;
+			targetProxy = F6081EF41CA4D51D0066561F /* PBXContainerItemProxy */;
+		};
+		F6081F001CA4D51E0066561F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6081EE11CA4D51D0066561F /* MySwiftToolbarMadness */;
+			targetProxy = F6081EFF1CA4D51E0066561F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6081EEB1CA4D51D0066561F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6081EEC1CA4D51D0066561F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6081F051CA4D51E0066561F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6081F061CA4D51E0066561F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F6081F081CA4D51E0066561F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MySwiftToolbarMadness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nikolaybotevb.MySwiftToolbarMadness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6081F091CA4D51E0066561F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MySwiftToolbarMadness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nikolaybotevb.MySwiftToolbarMadness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6081F0B1CA4D51E0066561F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MySwiftToolbarMadnessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nikolaybotevb.MySwiftToolbarMadnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySwiftToolbarMadness.app/Contents/MacOS/MySwiftToolbarMadness";
+			};
+			name = Debug;
+		};
+		F6081F0C1CA4D51E0066561F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MySwiftToolbarMadnessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nikolaybotevb.MySwiftToolbarMadnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySwiftToolbarMadness.app/Contents/MacOS/MySwiftToolbarMadness";
+			};
+			name = Release;
+		};
+		F6081F0E1CA4D51E0066561F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MySwiftToolbarMadnessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nikolaybotevb.MySwiftToolbarMadnessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MySwiftToolbarMadness;
+			};
+			name = Debug;
+		};
+		F6081F0F1CA4D51E0066561F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MySwiftToolbarMadnessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nikolaybotevb.MySwiftToolbarMadnessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MySwiftToolbarMadness;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6081EDD1CA4D51D0066561F /* Build configuration list for PBXProject "MySwiftToolbarMadness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6081F051CA4D51E0066561F /* Debug */,
+				F6081F061CA4D51E0066561F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6081F071CA4D51E0066561F /* Build configuration list for PBXNativeTarget "MySwiftToolbarMadness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6081F081CA4D51E0066561F /* Debug */,
+				F6081F091CA4D51E0066561F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6081F0A1CA4D51E0066561F /* Build configuration list for PBXNativeTarget "MySwiftToolbarMadnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6081F0B1CA4D51E0066561F /* Debug */,
+				F6081F0C1CA4D51E0066561F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6081F0D1CA4D51E0066561F /* Build configuration list for PBXNativeTarget "MySwiftToolbarMadnessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6081F0E1CA4D51E0066561F /* Debug */,
+				F6081F0F1CA4D51E0066561F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6081EDA1CA4D51D0066561F /* Project object */;
+}
