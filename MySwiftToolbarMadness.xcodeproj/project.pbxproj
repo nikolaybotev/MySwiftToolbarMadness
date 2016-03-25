@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F604DAF11CA4FEC700C9A3B0 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F604DAF01CA4FEC700C9A3B0 /* WindowController.swift */; };
 		F6081EE61CA4D51D0066561F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6081EE51CA4D51D0066561F /* AppDelegate.swift */; };
 		F6081EE81CA4D51D0066561F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6081EE71CA4D51D0066561F /* ViewController.swift */; };
 		F6081EEA1CA4D51D0066561F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6081EE91CA4D51D0066561F /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F604DAF01CA4FEC700C9A3B0 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		F6081EE21CA4D51D0066561F /* MySwiftToolbarMadness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwiftToolbarMadness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6081EE51CA4D51D0066561F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6081EE71CA4D51D0066561F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				F6081EE91CA4D51D0066561F /* Assets.xcassets */,
 				F6081EEB1CA4D51D0066561F /* Main.storyboard */,
 				F6081EEE1CA4D51D0066561F /* Info.plist */,
+				F604DAF01CA4FEC700C9A3B0 /* WindowController.swift */,
 			);
 			path = MySwiftToolbarMadness;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6081EE81CA4D51D0066561F /* ViewController.swift in Sources */,
+				F604DAF11CA4FEC700C9A3B0 /* WindowController.swift in Sources */,
 				F6081EE61CA4D51D0066561F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +479,7 @@
 				F6081F091CA4D51E0066561F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6081F0A1CA4D51E0066561F /* Build configuration list for PBXNativeTarget "MySwiftToolbarMadnessTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +488,7 @@
 				F6081F0C1CA4D51E0066561F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6081F0D1CA4D51E0066561F /* Build configuration list for PBXNativeTarget "MySwiftToolbarMadnessUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +497,7 @@
 				F6081F0F1CA4D51E0066561F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
