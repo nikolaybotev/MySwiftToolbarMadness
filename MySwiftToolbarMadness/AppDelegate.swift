@@ -11,16 +11,15 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-
+    override func respondsToSelector(aSelector: Selector) -> Bool {
+        NSLog("APP: %@", NSStringFromSelector(aSelector))
+        return super.respondsToSelector(aSelector)
+    }
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
-        // Insert code here to initialize your application
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {
-        // Insert code here to tear down your application
     }
-
-
 }
 
