@@ -13,9 +13,9 @@ class WindowController: NSWindowController, NSWindowDelegate, NSToolbarDelegate 
     @IBOutlet var toolbar: NSToolbar?
     @IBOutlet var toolMenuButtonCell: NSPopUpButtonCell?
 
-    override func respondsToSelector(aSelector: Selector) -> Bool {
+    override func responds(to aSelector: Selector) -> Bool {
         NSLog("WIN: %@", NSStringFromSelector(aSelector))
-        return super.respondsToSelector(aSelector)
+        return super.responds(to: aSelector)
     }
 
     override func windowDidLoad() {
